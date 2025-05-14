@@ -20,8 +20,8 @@ A simple summarizer tool that condenses information from bodies of text, webpage
 ## File Information
 - `.env`: contains your Cohere API Key ('API_KEY')
 - `.gitignore`: specifies untracked files to ignore in Git
-- `main.py`: entry point
 - `README.md`: project overeview and documentation
+- `main.py`: entry point
 - `requirements.txt`: necessary packages and dependencies
 - `summarizer_controller.py`: event handling and user interaction
 - `summarizer_tool.py`: business logic, interacts with the Cohere API
