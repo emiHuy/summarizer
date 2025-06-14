@@ -1,7 +1,9 @@
 from PySide6.QtWidgets import QMainWindow, QGridLayout, QWidget, QTextEdit, QLabel, QComboBox, QPushButton , QMessageBox, QFileDialog
 from PySide6.QtCore import QSize
 from PySide6 import QtGui
+from PySide6.QtGui import QIcon
 import summarizer_tool as summarizer
+from utils import resource_path
 
 class MainWindow(QMainWindow):   
 
@@ -9,6 +11,7 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("Summarizer Tool")
         self.setFixedSize(QSize(1000,720))
+        self.setWindowIcon(QIcon(resource_path("images/summarizer-icon.png")))
         self.setup_components()
 
         layout = QGridLayout()        

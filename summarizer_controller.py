@@ -58,6 +58,8 @@ class Controller:
                     mode = "w"
                 else:
                     mode = "a"
+            else:
+                mode = "w"
         except:
             return
         

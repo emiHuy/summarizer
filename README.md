@@ -6,7 +6,7 @@ A simple summarizer tool that condenses information from bodies of text, webpage
 ## Project Metadata
 **Author:** Emily  
 **Date Created:** May 12, 2025  
-**Last Updated:** May 15, 2025  
+**Last Updated:** June 14, 2025  
 
 ## Features
 - Summarize text from body of text, url, and/or file path
@@ -26,6 +26,7 @@ A simple summarizer tool that condenses information from bodies of text, webpage
 - `summarizer_controller.py`: event handling and user interaction
 - `summarizer_tool.py`: business logic, interacts with the Cohere API
 - `summarizer_view.py`: GUI (with PySide6)
+- `utils.py`: contains helper function for handling file paths
 
 ## Setup
 1. Create a `.env` file in the root directory
